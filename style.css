@@ -1,0 +1,41 @@
+.header{
+	width: 100%;
+	height: 60px;
+	background-color: #262626;
+}
+.title{
+	color: white;
+	font-size: 30px;
+	font-family: serif;
+	padding-top:8px;
+	text-align:center;
+}
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.btn{
+	background-color: #4287f5;
+	color: white;
+	height: 60px;
+	border-radius: 10px;
+	border:none;
+	font-size: 100%;
+	width: 800px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+.btn:hover{
+	background-color: #4287f5;
+	color: white;
+	height: 60px;
+	border-radius: 10px;
+	border:none;
+	font-size: 100%;
+	box-shadow: 1px 1px 1px 1px #d1d1d1;
+}
+.mendy{
+	border-radius:20px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
