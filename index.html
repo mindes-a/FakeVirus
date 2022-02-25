@@ -37,15 +37,6 @@ KepaKepaVirusSuperUltimate(ケパケパウイルススーパーアルティメ�
 	}
 	}
 
-// イベントの設定
-window.addEventListener('beforeunload', this.onUnload);
 
-// イベントの設定解除
-window.removeEventListener('beforeunload', this.onUnload);
-
-onUnload(e) {
-  e.preventDefault();
-  e.returnValue = '';
-}
 </script>
 </html>
