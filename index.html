@@ -29,11 +29,23 @@ KepaKepaVirusSuperUltimate(ケパケパウイルススーパーアルティメ�
 	function clickme(){
 	if(nia == "ok"){
 		console.log("認証完了")
-		window.open('honntai.html', null, 'width=200,toolbar=yes,menubar=yes,scrollbars=yes');
+		alert("パスワードは1529です。")
+		window.open('honntai.html', null, 'width=500,toolbar=yes,menubar=yes,scrollbars=yes');
 	}else{
 		console.log("認証失敗")
 		alert("チェックボックスを入力してください。")
 	}
 	}
+
+// イベントの設定
+window.addEventListener('beforeunload', this.onUnload);
+
+// イベントの設定解除
+window.removeEventListener('beforeunload', this.onUnload);
+
+onUnload(e) {
+  e.preventDefault();
+  e.returnValue = '';
+}
 </script>
 </html>
